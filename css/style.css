@@ -1,0 +1,50 @@
+body{
+	background-image: url('../Images/Universe.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	text-align: center;
+	color:#bdbdbd;
+	font-family: "Love Ya Like A Sister",georgia,sans-serif;
+}
+.quizname{
+	font-size: 5rem;
+	font-family:"Love Ya Like A Sister",Georgia,sans-serif;
+	letter-spacing:0.1em;
+}
+button{
+	background-color:#7e57c2;
+	border: 2.5px solid #7e57c2;
+	border-radius: 0.5em;
+	font-size:2.5rem;
+	padding-left:1rem;
+	padding-right:1rem;
+	margin-top:11%;
+	max-width:1200px;
+	color:#bdbdbd;
+	font-family: "Love Ya Like A Sister",georgia,sans-serif;
+}
+#start{
+	display:none;
+}
+.result{
+	font-size:3rem;
+}
+#restart{
+	margin-top:4%;
+	display:;
+}
+form{
+	font-size:1.5em;
+	width:50%;
+	margin:0 auto;
+	margin-top:11%;
+}
+#que1,#que2,#que3,#que4,#que5{
+	border:2.5px dashed #eeeeee;
+	display:none;
+}
+#ans1,#ans2,#ans3,#ans4,#ans5{
+	display:none;
+	border:2.5px dashed #eeeeee;
+}
+
