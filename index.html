@@ -11,18 +11,25 @@
 <div class="content">
 	<h1 class="quizname">Astronomy Quiz</h1>
 	<button type="button" id="start">Start The Quiz!</button>
-	<h2 class="result">You got 5 questions correct!</h2>
+	<span id="result"></span>
 	<button type="button" id="restart">Retake The Quiz</button>
-		<form class=quizform>
-			<div class="questions" id="que1">
+		<form class="quizform">
+			<div class="questionsList">
 			<h3>Question 1 of 5</h3>
 			<p>Which of the following planets would float if you put it in water?<br />
-			<input type="radio" name="option1" value="Saturn">Saturn<br />
-			<input type="radio" name="option2" value="Venus">Venus<br />
-			<input type="submit" value="Submit">
 			</p>
 			</div>
-			<div class="questions" id="que2">
+			<span class="answers">
+			<div id="answer_holder">
+			<input type="radio" name="option" class="option" value="0">Saturn<br />
+			<input type="radio" name="option" class="option" value="1">Venus<br />
+			</div>
+			</span>
+			<div id="button_holder">
+			<input type="button" value="Submit" id="submit">
+			</div>
+			
+			<!--<div class="questions" id="que2">
 				<h3>Question 2 of 5</h3>
 				<p>Which of the following planets does not have any seasons?<br />
 			<input type="radio" name="option1" value="Jupiter">Jupiter<br />
@@ -54,13 +61,19 @@
 			<input type="submit" value="Submit">
 			</p>
 			</div>
-			<div class="answers" id="ans1">
-				<h3>You are right!</h3>
+			-->
+			<span class="facts">
+			<div class="feedback_holder" id="fact1">
+
 				<p>
 					Even though Saturn is the second largest planet in the Solar System, it is the least dense. It is mainly composed of hydrogen and helium and does not have a solid surface, hence it would float if you it in water.
 				</p>
 			</div>
-			<div class="answers" id="ans2">
+			</span>
+			<div id="button_holder">
+				<input type="button" id="next" value="Next" class="next">
+			</div>
+			<!--<div class="answers" id="ans2">
 				<h3>You are right!</h3>
 				<p>
 					The three major factors that influence the seasons are:
@@ -89,6 +102,7 @@
 					Olympus Mons on Mars is the tallest mountain on any of the planets of the Solar System. The mountain is a gigantic shield volcano (similar to volcanoes found in the Haiiwain Islands) standing at 26 kilometres tall and sprawling 600 kilometres across. To put this into scale, this makes the mountain almost three times the height of Mount Everest.
 				</p>
 			</div>
+			-->
 		</form>
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>

@@ -24,14 +24,15 @@ button{
 	font-family: "Love Ya Like A Sister",georgia,sans-serif;
 }
 #start{
-	display:none;
+	
 }
 .result{
 	font-size:3rem;
+	display:none;
 }
 #restart{
 	margin-top:4%;
-	display:;
+	display:none;
 }
 form{
 	font-size:1.5em;
@@ -39,12 +40,16 @@ form{
 	margin:0 auto;
 	margin-top:11%;
 }
-#que1,#que2,#que3,#que4,#que5{
-	border:2.5px dashed #eeeeee;
+.questionsList{
 	display:none;
 }
-#ans1,#ans2,#ans3,#ans4,#ans5{
+.answers{
+	display: none;
+}
+.feedback_holder{
+	display: none;
+}
+#button_holder{
 	display:none;
-	border:2.5px dashed #eeeeee;
 }
 
