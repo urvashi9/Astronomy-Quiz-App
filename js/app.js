@@ -142,7 +142,7 @@ $(document).ready(function(){
 		$('.fourthQue').fadeIn(100);
 		$('#q4').fadeIn(1000);
 		$('#button_holder').fadeIn(1000);
-		$('body').css('background-image','url(Images/Diamond.jpg)');
+		$('body').css('background-image','url(Images/Diamonds.jpg)');
 		$('body').css('color','#1a237e');
 		$('#correct').hide();
 		$('#incorrect').hide();
